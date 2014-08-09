@@ -9,11 +9,14 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
-
+@synthesize vc;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    vc = [[ViewController alloc] init];
+    [self.window addSubview:vc.view];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

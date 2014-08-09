@@ -19,6 +19,8 @@
 		AB68399D198DF8A4003CB4C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB683985198DF8A3003CB4C3 /* UIKit.framework */; };
 		AB6839A5198DF8A4003CB4C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB6839A3198DF8A4003CB4C3 /* InfoPlist.strings */; };
 		AB6839A7198DF8A4003CB4C3 /* BubbleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6839A6198DF8A4003CB4C3 /* BubbleViewTests.m */; };
+		AB6839B2198DF8C9003CB4C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6839B1198DF8C9003CB4C3 /* ViewController.m */; };
+		AB6839B4198E0356003CB4C3 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = AB6839B3198E0356003CB4C3 /* bubble.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		AB6839A2198DF8A4003CB4C3 /* BubbleViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BubbleViewTests-Info.plist"; sourceTree = "<group>"; };
 		AB6839A4198DF8A4003CB4C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB6839A6198DF8A4003CB4C3 /* BubbleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleViewTests.m; sourceTree = "<group>"; };
+		AB6839B0198DF8C9003CB4C3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB6839B1198DF8C9003CB4C3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB6839B3198E0356003CB4C3 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,8 @@
 		AB683975198DF8A3003CB4C3 = {
 			isa = PBXGroup;
 			children = (
+				AB6839B0198DF8C9003CB4C3 /* ViewController.h */,
+				AB6839B1198DF8C9003CB4C3 /* ViewController.m */,
 				AB683987198DF8A3003CB4C3 /* BubbleView */,
 				AB6839A0198DF8A4003CB4C3 /* BubbleViewTests */,
 				AB683980198DF8A3003CB4C3 /* Frameworks */,
@@ -109,6 +116,7 @@
 			children = (
 				AB683990198DF8A3003CB4C3 /* AppDelegate.h */,
 				AB683991198DF8A3003CB4C3 /* AppDelegate.m */,
+				AB6839B3198E0356003CB4C3 /* bubble.png */,
 				AB683993198DF8A3003CB4C3 /* Images.xcassets */,
 				AB683988198DF8A3003CB4C3 /* Supporting Files */,
 			);
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6839B4198E0356003CB4C3 /* bubble.png in Resources */,
 				AB68398C198DF8A3003CB4C3 /* InfoPlist.strings in Resources */,
 				AB683994198DF8A3003CB4C3 /* Images.xcassets in Resources */,
 			);
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6839B2198DF8C9003CB4C3 /* ViewController.m in Sources */,
 				AB683992198DF8A3003CB4C3 /* AppDelegate.m in Sources */,
 				AB68398E198DF8A3003CB4C3 /* main.m in Sources */,
 			);
